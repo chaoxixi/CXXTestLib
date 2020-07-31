@@ -1,0 +1,22 @@
+{
+  "name": "CXXTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of CXXTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/CXXTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "402882461@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/git/CXXTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CXXTestLib/Classes/**/*"
+}

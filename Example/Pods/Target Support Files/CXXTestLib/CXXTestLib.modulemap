@@ -1,0 +1,6 @@
+framework module CXXTestLib {
+  umbrella header "CXXTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
