@@ -1,6 +1,0 @@
-use_frameworks!
-target 'CXXTestLib_Tests' do
-  pod 'CXXTestLib', :path => '../'
-  
-  
-end
