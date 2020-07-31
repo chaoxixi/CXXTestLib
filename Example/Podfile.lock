@@ -1,0 +1,27 @@
+PODS:
+  - CXXTestLib (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CXXTestLib (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CXXTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CXXTestLib: 4669ab6ec298c9da65df665e84c680281e001ab8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: f51e968fea591f14eddefacdd30c5bf7857586a0
+
+COCOAPODS: 1.10.0.beta.1
