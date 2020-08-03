@@ -1,5 +1,5 @@
 use_frameworks!
-
+source 'https://github.com/CocoaPods/Specs.git'
 target 'CXXTestLib_Example' do
   pod 'CXXTestLib', :path => '../'
 
@@ -7,5 +7,6 @@ target 'CXXTestLib_Example' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    pod 'MBProgressHUD'
   end
 end

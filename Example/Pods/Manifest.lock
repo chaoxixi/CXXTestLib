@@ -1,16 +1,20 @@
 PODS:
-  - CXXTestLib (0.1.0)
+  - CXXTestLib (0.1.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - CXXTestLib (from `../`)
   - FBSnapshotTestCase (~> 2.1.4)
+  - MBProgressHUD
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MBProgressHUD
   trunk:
     - FBSnapshotTestCase
 
@@ -19,9 +23,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXXTestLib: 9737e415eb082baf41ca17f99f14810ef2881361
+  CXXTestLib: d46f7f69c1a5bf6b4b07b00098987913989feed5
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: f51e968fea591f14eddefacdd30c5bf7857586a0
+PODFILE CHECKSUM: 8bc62f4fe37158a896b7c0b739f6d1cf8c23ef17
 
 COCOAPODS: 1.10.0.beta.1
