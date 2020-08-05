@@ -1,0 +1,6 @@
+framework module JJCodeTestLib {
+  umbrella header "JJCodeTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

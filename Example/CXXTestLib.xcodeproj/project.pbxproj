@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		0E2C2FC824D41E96004CAAE5 /* tooleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tooleView.swift; sourceTree = "<group>"; };
 		1A1F746E2901A65AE670268D /* Pods-CXXTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXXTestLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CXXTestLib_Tests/Pods-CXXTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1E8F912AF950BADDBA920020 /* CXXTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXXTestLib.podspec; path = ../CXXTestLib.podspec; sourceTree = "<group>"; };
+		1E8F912AF950BADDBA920020 /* CXXTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXXTestLib.podspec; path = ../CXXTestLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F063ACFB93EDD412B7FF059 /* Pods-CXXTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXXTestLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-CXXTestLib_Tests/Pods-CXXTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		51127AFD4615CA025B7C34E8 /* Pods_CXXTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXXTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CXXTestLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXXTestLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,11 +298,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CXXTestLib_Tests/Pods-CXXTestLib_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/JJCodeTestLib/JJCodeTestLib.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJCodeTestLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,10 +341,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CXXTestLib_Example/Pods-CXXTestLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/CXXTestLib/CXXTestLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CXXTestLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

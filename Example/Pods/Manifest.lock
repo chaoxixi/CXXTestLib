@@ -1,19 +1,45 @@
 PODS:
-  - CXXTestLib (0.1.1)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CXXTestLib (0.1.2):
+    - AFNetworking (~> 2.3)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - JJCodeTestLib (0.1.1):
+    - MBProgressHUD
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - CXXTestLib (from `../`)
   - FBSnapshotTestCase (~> 2.1.4)
-  - MBProgressHUD
+  - JJCodeTestLib
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - JJCodeTestLib
     - MBProgressHUD
   trunk:
     - FBSnapshotTestCase
@@ -23,10 +49,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXXTestLib: d46f7f69c1a5bf6b4b07b00098987913989feed5
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  CXXTestLib: d68a1dcf471b93c5833fe2c7235980d3d52b8957
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JJCodeTestLib: 9359d86e94f941f37b47f694444a7cec1f4c0362
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 8bc62f4fe37158a896b7c0b739f6d1cf8c23ef17
+PODFILE CHECKSUM: f961c8e2bf7dcb0986ba6ec976fc56e74a93f054
 
 COCOAPODS: 1.10.0.beta.1
