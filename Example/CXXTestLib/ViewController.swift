@@ -7,12 +7,16 @@
 //
 
 import UIKit
-
+import CXXTestLib
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let image = UIImageView.init()
+        image.frame = CGRect(x: 100, y: 100, width: 30, height: 30)
+        self.view.addSubview(image)
+        image.image = UIImage.loadImageNamed(name: "icon_success_black")
     }
 
     override func didReceiveMemoryWarning() {

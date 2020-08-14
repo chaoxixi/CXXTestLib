@@ -1,6 +1,6 @@
 {
   "name": "CXXTestLib",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A short description of CXXTestLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chaoxixi/CXXTestLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/chaoxixi/CXXTestLib.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,9 +25,17 @@
   ],
   "requires_arc": true,
   "source_files": "CXXTestLib/Classes/**/*",
+  "resource_bundles": {
+    "Images": [
+      "CXXTestLib/Assets/**/*"
+    ]
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"
+    ],
+    "MBProgressHUD": [
+
     ]
   },
   "swift_version": "5.2"

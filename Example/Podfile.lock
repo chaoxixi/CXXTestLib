@@ -20,8 +20,9 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CXXTestLib (0.1.2):
+  - CXXTestLib (0.1.3):
     - AFNetworking (~> 2.3)
+    - MBProgressHUD
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -50,7 +51,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  CXXTestLib: d68a1dcf471b93c5833fe2c7235980d3d52b8957
+  CXXTestLib: 74a62efed3cb0835434959bdbf0d936a9fffb6fd
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JJCodeTestLib: 9359d86e94f941f37b47f694444a7cec1f4c0362
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
